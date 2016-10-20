@@ -66,15 +66,15 @@ h2 {
   margin-top:0;
 }
 
-#about {
+#about, #popular {
   color: gray;
 }
 
-.image1 {
+.image1, .image2 {
   width: 600px;
 }
 
-.continues {
+.continues, .more {
   float: right;
   font-size: 2em;
   color: red;
@@ -83,4 +83,39 @@ h2 {
 .dividing-line {
   border: rgb(173, 182, 182) 1px solid;
   margin: 60px 0 60px 0;
+}
+
+.bottom-nav {
+  list-style-type: none;
+}
+
+.bottom-nav li {
+  display: inline;
+}
+
+.bottom-nav li:nth-child(odd) {
+  color: red;
+}
+
+#copyright {
+  display: block;
+  color: rgb(172, 170, 166);
+  padding-left: 30px;
+}
+
+.about-text {
+  color: rgb(166, 173, 166);
+}
+
+.ad {
+  width: 100%;
+}
+
+.popular-items {
+  color: rgb(101, 105, 100);
+  list-style: gray;
+}
+
+.popular-items li {
+  color: rgb(130, 14, 70);
 }
