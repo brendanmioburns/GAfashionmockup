@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width:1000px;
+  width:1100px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -46,7 +46,7 @@ h1, h2 {
 
 h1 {
   margin-right: 5px;
-  color: rgb(203, 121, 36);
+  color: rgb(203, 66, 35);
 }
 
 h2 {
@@ -68,4 +68,19 @@ h2 {
 
 #about {
   color: gray;
+}
+
+.image1 {
+  width: 600px;
+}
+
+.continues {
+  float: right;
+  font-size: 2em;
+  color: red;
+}
+
+.dividing-line {
+  border: rgb(173, 182, 182) 1px solid;
+  margin: 60px 0 60px 0;
 }
